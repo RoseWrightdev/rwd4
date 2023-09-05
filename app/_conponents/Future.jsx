@@ -5,19 +5,20 @@ import Reveal from './Reveal.jsx';
 export default function Future () {
     return (
         <>
-            <div className="flex flex-col justify-center bg-silver text-purple">
+            <div className="flex flex-col justify-center bg-silver text-purple py-40 px-[10dvw]">
                 <Reveal>
-                    <h1 className="text-8xl mx-[10dvw] mt-[25dvh] font-bold FutureTexture">Building the future, one line of code at a time</h1>
+                    <h1 className="text-8xl font-bold FutureTexture">Building the future, one line of code at a time</h1>
                 </Reveal>
                 <Reveal>
-                    <div className="text-4xl mx-[10dvw] font-bold flex mb-[15dvh]">
+                    <div className="text-4xl font-bold flex">
                         <span className="px-10 py-3 m-3 rounded-lg bg-red text-silver border-4 border-red">Case Studies</span>
                         <span className="px-16 py-3 m-3 rounded-lg bg-silver text-purple border-4">Contact</span>
                     </div>
-                    </Reveal>
+                </Reveal>
 
-                <Image src={WhiteToRed} alt="test" />
             </div>
+            <Image src={WhiteToRed} alt="test" />
+
         </>
     )
 }
