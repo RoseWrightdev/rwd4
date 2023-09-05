@@ -5,6 +5,8 @@
 
 :root {
   font-family: 'Metropolis', sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 @media (prefers-color-scheme: dark) {

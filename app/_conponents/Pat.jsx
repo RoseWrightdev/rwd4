@@ -14,9 +14,9 @@ export default function Pat () {
                         <Image src={Quote} alt='w'></Image>
                     </div>
                     <span>
-                        <h1 className=" text-2xl md:text-3xl lg:text-4xl text-silver font-medium first-letter:font-bold italic">Rose was a tremendous asset to build our Citizen Carp Control website. She is creative, a fast learner and worked hard to capture the vision for our project.</h1>
+                        <h1 className="indent-8 text-2xl md:text-3xl lg:text-4xl text-silver font-medium first-letter:font-bold italic">Rose was a tremendous asset to build our Citizen Carp Control website. She is creative, a fast learner and worked hard to capture the vision for our project.</h1>
                         <br/>
-                        <h2 className=" text-2xl md:text-3xl lg:text-4xl text-silver font-medium"> —CEO of Wildlife Forever, Pat Conzemius</h2>
+                        <h2 className="indent-8 text-2xl md:text-3xl lg:text-4xl text-silver font-medium"> —CEO of Wildlife Forever, Pat Conzemius</h2>
                     </span>
                 </div>
             </span>

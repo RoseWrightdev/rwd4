@@ -11,10 +11,10 @@ export default function Nav () {
                   </span>
           </nav>
           <nav className="md:hidden flex justify-between bg-silver select-none">
-            <div className="text-purple text-lg p-4 m-1 font-semibold border-2 border-silver">RoseWright.dev</div>
+            <div className="text-purple text-lg md:p-4 p-1 m-1 font-semibold border-2 border-silver">RoseWright.dev</div>
             <span className="flex-row flex">
-              <div className="text-silver text-lg p-4 px-6 m-1 bg-magenta hover:bg-silver hover:border-magenta hover:text-magenta border-2 font-semibold rounded-lg transition">Join</div>
-              <div className="text-purple text-lg p-4 m-1 bg-silver hover:bg-purple hover:text-silver hover:border-purple border-silver border-2 font-semibold rounded-lg transition">About</div>
+              <div className="text-silver text-lg md:p-4 p-1 px-6 m-1 bg-magenta hover:bg-silver hover:border-magenta hover:text-magenta border-2 font-semibold rounded-lg transition">Join</div>
+              <div className="text-purple text-lg md:p-4 p-1  m-1 bg-silver hover:bg-purple hover:text-silver hover:border-purple border-silver border-2 font-semibold rounded-lg transition">About</div>
             </span>
           </nav>
         </>
