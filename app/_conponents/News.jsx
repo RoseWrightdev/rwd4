@@ -19,6 +19,12 @@ export default function News () {
             <span className='md:w-[50dvw] md:ml-10 md:mx-[1dvw] md:my-auto'>
                 <div className='flex'>
                     <span>
+                        <div className='absolute'>
+                            <span className='flex flex-col'>
+                                <h1 className="mt-8 text-7xl font-bold text-silver">Newsletter</h1>
+                                <h2 className="text-right text-4xl font-bold text-silver">Projects, Updates</h2>
+                            </span>
+                        </div>
                         <div className="parent">
                             
                             <div className='flex justify-end mt-auto m-1'>
@@ -59,7 +65,7 @@ export default function News () {
                 </div>
             </span>      
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ml-[1dvw ]mt-[1dvh] sm:mt-[1dvh]">
             <div className='absolute mb-32'>
                 <Image src={Hope} alt='test'/>    
             </div>
