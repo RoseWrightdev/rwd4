@@ -40,3 +40,10 @@ border: 3px solid transparent;
  background-clip: content-box;
   background-color: #3D2645;
 }
+
+.FutureTexture {
+  background: url(./_assets/FutureTexture.png) 0 0 / cover no-repeat;
+  background-position: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
