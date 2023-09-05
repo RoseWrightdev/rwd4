@@ -6,16 +6,17 @@ import Polygon2 from '../_assets/Polygon2.svg'
 import Polygon3 from '../_assets/Polygon3.svg'
 import Polygon4 from '../_assets/Polygon4.svg'
 import Polygon5 from '../_assets/Polygon5.svg'
-
+import Hope from '../_assets/Hope.svg'
 
 export default function News () {
     return (
         <>
-        <div className="flex md:flex-row flex-col justify-center bg-purple py-40 px-[10dvw]">
+        <div className="bg-purple py-40 px-[10dvw]">
+        <div className="flex md:flex-row flex-col justify-center ">
             <span className="text-4xl font-bold md:w-[50dvw] select-none">
                 <Image src={Ew} alt='test'></Image>    
             </span>         
-            <span className='md:w-[50dvw] md:mr-[1dvw] md:my-auto mb-10'>
+            <span className='md:w-[50dvw] md:ml-10 md:mx-[1dvw] md:my-auto'>
                 <div className='flex'>
                     <span>
                         <div className="parent">
@@ -35,7 +36,7 @@ export default function News () {
                                 {/*4 */}
                             </div>
                             <div>
-                                <div className="text-silver text-lg md:p-4 p-1 px-6 m-1 bg-purple border-2 font-semibold rounded-lg transition text-center">Join</div>
+                                <div className="text-silver text-5xl px-10 md:p-4 p-1 m-1 bg-purple border-[10px] font-bold rounded-3xl transition text-center">Join</div>
                                 {/*5 */}
                             </div>
                             <div>
@@ -58,7 +59,12 @@ export default function News () {
                 </div>
             </span>      
         </div>
-        <Image src={MagentaToPurple} alt='test'></Image>    
+        <div className="flex items-center justify-center">
+            <div className='absolute mb-32'>
+                <Image src={Hope} alt='test'/>    
+            </div>
+       </div>
+        </div>
     </>
     )
 }
