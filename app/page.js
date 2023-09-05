@@ -3,6 +3,7 @@ import ProgressBar from "./_conponents/ProgressBar"
 import Future from "./_conponents/Future"
 import DnD from "./_conponents/DnD"
 import Pat from "./_conponents/Pat"
+import News from "./_conponents/News"
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <Future/>
       <DnD/>
       <Pat/>
+      <News/>
     </>    
   )
 }

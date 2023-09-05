@@ -49,3 +49,16 @@ border: 3px solid transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, .1fr);
+  }
+
+  /*
+.parent > div {
+  border: 1px solid red;
+  background-color: white;
+}
+*/
