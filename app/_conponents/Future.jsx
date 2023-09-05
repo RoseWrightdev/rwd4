@@ -7,18 +7,18 @@ export default function Future () {
         <>
             <div className="flex flex-col justify-center bg-silver text-purple py-40 px-[10dvw]">
                 <Reveal>
-                    <h1 className="text-8xl font-bold FutureTexture">Building the future, one line of code at a time</h1>
+                    <h1 className="text-4xl md:text-8xl font-bold FutureTexture">Building the future, one line of code at a time</h1>
                 </Reveal>
                 <Reveal>
-                    <div className="text-4xl font-bold flex">
-                        <span className="px-10 py-3 m-3 rounded-lg bg-red text-silver border-4 border-red">Case Studies</span>
-                        <span className="px-16 py-3 m-3 rounded-lg bg-silver text-purple border-4">Contact</span>
+                    <div className="text-2x1 md:text-4xl font-bold flex md:flex-row flex-col  ">
+                        <div className="px-10 py-1 m-3 rounded-lg bg-red text-silver border-8 border-red">Case Studies</div>
+                        <div className="px-16 py-1 m-3 rounded-lg bg-silver text-magenta border-8">Contact</div>
                     </div>
                 </Reveal>
-
             </div>
+            <div className="bg-red">
             <Image src={WhiteToRed} alt="test" />
-
+            </div>
         </>
     )
 }

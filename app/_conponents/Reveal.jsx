@@ -18,8 +18,6 @@ export default function Reveal ({children, width = "fit-content"}) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isInView]);
 
-
-
     return(
         <div ref={ref} style={{position: "relative", width, overflow: "hidden"}}>
             <motion.div
@@ -51,7 +49,7 @@ export default function Reveal ({children, width = "fit-content"}) {
                 bottom: 4,
                 left: 0,
                 right: 0,
-                background: "linear-gradient(to left, #DA4167,  #3D2645)",
+                background: "#3D2645",
                 zIndex: 20,
             }}
             >
